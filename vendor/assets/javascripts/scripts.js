@@ -235,9 +235,9 @@ jQuery(function ($) {
     // Vidio auto play
     // -------------------------------------------------------------
     (function () {
-    
+
     /* Vimeo API: http://developer.vimeo.com/player/js-api */
-    
+
         var iframe = document.getElementById('nofocusvideo');
         // $f == Froogaloop
         var player = $f(iframe);
@@ -327,7 +327,7 @@ jQuery(function ($) {
     // -------------------------------------------------------------
 
     (function () {
-        var myLatlng = new google.maps.LatLng(41.372641, -74.687387);
+        var myLatlng = new google.maps.LatLng(12.9234066, 77.6118985);
 
             var styles = [
                 {

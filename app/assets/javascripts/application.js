@@ -13,17 +13,19 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
+//= require jquery.min.js
 //= require jquery.countTo.js
-//= require jquery.easypiechart.js
 //= require smoothscroll.js
 //= require jquery.inview.min.js
-//= require jquery.min.js
 //= require jquery.magnific-popup.min.js
 //= require jquery.shuffle.min.js
 //= require jquery.stellar.min.js
 //= require jquery.sticky.js
+//= require jquery.waypoints.js
+//= require jquery.easypiechart.js
 //= require scripts.js
 //= require wow.min.js
 //= require bootstrap.js
 //= require jquery.fitvids.js
+
 //= require_tree .

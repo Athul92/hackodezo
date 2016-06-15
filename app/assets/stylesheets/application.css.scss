@@ -12,11 +12,11 @@
  *
  *= require_tree .
  *= require_self
+ *= require font-awesome
  */
 
 @import "animate";
 @import "bootstrap";
-@import "font-awesome.min";
 @import "bootstrap-theme";
 @import "responsive";
 @import "magnific-popup";

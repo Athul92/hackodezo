@@ -185,7 +185,7 @@ DEPENDENCIES
   font-awesome-rails
   jbuilder (~> 2.0)
   jquery-rails
-  pg (= 0.18.4)
+  pg
   puma
   rails (= 4.2.6)
   sass-rails (~> 5.0)

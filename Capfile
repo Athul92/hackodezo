@@ -1,11 +1,13 @@
-# Load DSL and Setup Up Stages
 require 'capistrano/setup'
 require 'capistrano/deploy'
 
-require 'capistrano/rails'
-require 'capistrano/bundler'
-require 'capistrano/rvm'
-require 'capistrano/puma'
+require 'capistrano/rbenv'
+set :rbenv_type, :user
+set :rbenv_ruby, '2.3.1'
 
-# Loads custom tasks from `lib/capistrano/tasks' if you have any defined.
+require 'capistrano/bundler'
+require 'capistrano/rails'
+require 'capistrano/puma'
+require 'capistrano/rails/console'
+
 Dir.glob('lib/capistrano/tasks/*.rake').each { |r| import r }

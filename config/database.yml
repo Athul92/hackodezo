@@ -12,5 +12,5 @@ production:
  encoding: unicode
  database: hackodezo
  pool: 5
- username: hackodezo
- password:
+ username: deploy
+ password: hackodezo

@@ -1,4 +1,4 @@
-server '139.59.61.226', user: 'deploy', roles: %w(web app db)
+server '139.59.80.195', user: 'deploy', roles: %w(web app db)
 
 # Don't change these unless you know what you're doing
 set :pty,             true
